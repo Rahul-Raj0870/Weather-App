@@ -1,0 +1,22 @@
+.app {
+    position: relative;
+    height: 100vh; /* Full height of the viewport */
+    overflow: hidden; /* Prevent overflow */
+}
+
+.background-video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1; /* Send the video to the back */
+    transform: translate(-50%, -50%); /* Center the video */
+}
+
+.text-light {
+    position: relative;
+    z-index: 1; /* Bring text to the front */
+}
